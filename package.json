@@ -1,0 +1,31 @@
+{
+  "name": "fitbit-asap-types",
+  "version": "0.0.1",
+  "description": "Types definitions to use fitbit-asap with TypeScript",
+  "author": "Jérémy Jeanson (https://www.bugshunter.net)",
+  "license": "MIT",
+  "homepage": "https://github.com/JeremyJeanson/fitbit-asap-types",
+  "bugs": {
+    "url": "https://github.com/JeremyJeanson/fitbit-asap-types/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyJeanson/fitbit-asap-types.git"
+  },
+  "keywords": [
+    "fitbit",
+    "fitbitdev",
+    "fitbit-asap",
+    "typescript",
+    "types"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  }
+}
